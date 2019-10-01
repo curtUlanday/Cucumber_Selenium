@@ -6,8 +6,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "src/test/javaFeatures"
-,glue= {"glue"}
+		features = "classpath:Features"
+	    ,glue={"Glue"}
 )
 
 public class testRunner {
